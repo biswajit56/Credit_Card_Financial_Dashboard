@@ -4,6 +4,7 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 
 # Project Insights
 WoW change:
+
 • Revenue increased by 28.8%,
 • Total Transaction Amt & Count increased by xx% & xx%
 • Customer count increased by xx%
