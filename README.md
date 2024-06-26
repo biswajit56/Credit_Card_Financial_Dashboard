@@ -3,7 +3,7 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 
 # DAX Queries
 
-AgeGroup = SWITCH(
+## AgeGroup = SWITCH(
 TRUE(),
 'public cust_detail'[customer_age] < 30, "20-30",
 'public cust_detail'[customer_age] >= 30 && 'public cust_detail'[customer_age] < 40, "30-40",
