@@ -2,6 +2,16 @@
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends,enabling stakeholders to monitor and analyze credit card operations effectively.
 
 # DAX Queries
+AgeGroup = 
+SWITCH(
+    TRUE(),
+    'public customer_details'[customer_age] < 30 , "20-30",
+    'public customer_details'[customer_age] >= 30  && 'public customer_details'[customer_age] < 40, "30-40",
+    'public customer_details'[customer_age] >= 40  && 'public customer_details'[customer_age] < 50, "40-50",
+    'public customer_details'[customer_age] >= 50  && 'public customer_details'[customer_age] < 60, "50-60",
+    'public customer_details'[customer_age] >= 60, "60+",
+    "Unkown"
+)
 
 AgeGroup = SWITCH(
 TRUE(),
