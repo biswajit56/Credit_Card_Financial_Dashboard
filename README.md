@@ -5,10 +5,14 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 # Project Insights
 WoW change:
 
-• Revenue increased by 28.8%,
+• Revenue increased by 28.8%, 
+
 • Total Transaction Amt & Count increased by xx% & xx%
+
 • Customer count increased by xx%
+
 Overview YTD:
+
 • Overall revenue is 57M
 • Total interest is 8M
 • Total transaction amount is 46M
