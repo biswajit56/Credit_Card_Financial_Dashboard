@@ -1,6 +1,3 @@
-# Project Objective
-To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends,enabling stakeholders to monitor and analyze credit card operations effectively.
-
 # Credit Analysis
 
 This project aims to analyze credit data using PostgreSQL, Microsoft Excel, and Microsoft Power BI. The following steps outline the process from data import to insights generation.
